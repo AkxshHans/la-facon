@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+.page1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECECEC;
+}
+.page1 h1 {
+    font-size: 13vw;
+    font-weight: 100;
+    opacity: 0.8;
+    font-family: 'Satoshi', sans-serif;
+    letter-spacing: 85px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 3.4vw;
+   
+}
+.page1_part1 {
+    align-items: center;
+    gap: 4vw;
+    line-height: 1.5;
+    position: absolute;
+top: 10vw;
+left: 6vw;
+
+}
+.page1_part1 h4 {
+font-weight: 200;
+
+
+}
+.page1_part1 h5 {
+    position: absolute;
+    left: 82vw;
+    font-weight: 100;
+    opacity: 0.8;
+    font-size: 1vw;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25vw;
+    position: absolute;
+    top: 37vw;
+    left: 20vw;
+}
+.menu h6 {
+    opacity: 0.9;
+    font-weight: 200;
+    font-size: 0.8vw;
+  
+
+
+}
+.menu h6:hover{
+    opacity: 1;
+    
+}
+.page1 img {
+    z-index: 99;
+    width: 440px;
+    position: absolute;
+    left: 30vw;
+    top: -4vw;
+    filter: grayscale(2);
+}
+.page2 {
+        width: 100vw;
+        height: auto;
+        background-color: #ECECEC;
+    
+}
+.page2 h1 {
+    font-size: 8vw;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 65vw;
+}
+.page2 h2 {
+    font-family: 'Clash Grotesk', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    position: absolute;
+    top: 132%;
+    left: 65vw;
+    font-size: 8vw;
+
+}
+.page2 p {
+    font-family: 'Clash Grotesk', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 152%;
+    left: 50vw;
+    font-size: 2vw;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.page2 img {
+    padding-left: 9vw;
+}
+.page3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECECEC;
+}
+.page3 img {
+    width: 55vw;
+    position: absolute;
+    left: 46vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.page3 p {
+    font-family: 'Clash Grotesk', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 305%;
+    left: 10vw;
+    font-size: 2vw;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.page4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECECEC;
+}
+.page4 img {
+    width: 47vw;
+    position: absolute;
+    height: 100vh;
+    object-fit: cover;
+    object-position: top;
+}
+.page4 p {
+    font-family: 'Clash Grotesk', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 420%;
+    left: 55vw;
+    font-size: 2vw;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.page5 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECECEC;
+}
+.page5 img {
+    width: 55vw;
+    position: absolute;
+    left: 46vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.page5 p {
+    font-family: 'Clash Grotesk', sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 505%;
+    left: 2vw;
+    font-size: 2vw;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.page6 {
+    width: 100vw;
+    height: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page6 h3 {
+    position: absolute;
+    font-size: 6vw;
+    font-weight: 200;
+    rotate: 90deg;
+    margin-left: 83vw;
+}
+.page6 button {
+    position: absolute;
+    padding: 2vw;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.111);
+    border-radius: 20px;
+}
+.page6 button:hover {
+    background-color: rgba(128, 128, 128, 0.342);
+}
+.page7 {
+    width: 100vw;
+    height: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page7 h5 {
+    font-size: 20vw;
+    font-family: 'Clash Grotesk', sans-serif;
+
+    font-weight: 100;
+}
+.main h6  {
+    text-align: center;
+    margin-top: -3vw;
+    font-size: 1vw;
+    opacity: 0.6;
+    font-weight: 200;
+}
+
